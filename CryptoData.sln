@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2006
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptoData.BLL", "CryptoData.BLL\CryptoData.BLL.csproj", "{6FC5BD55-7AB0-4B60-82C6-CC290E3E627A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptoData.DAL", "CryptoData.DAL\CryptoData.DAL.csproj", "{6BC552D4-B91D-40BB-A571-55370DD881D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptoData.Core", "CryptoData.Core\CryptoData.Core.csproj", "{647B6A69-1039-498C-98BA-C9E32C5C9AD8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptoData.WebAPI", "CryptoData.WebAPI\CryptoData.WebAPI.csproj", "{111D1FDD-74CD-483E-931B-5CB2DD2C3ACB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsService_Proj", "WindowsService_Proj\WindowsService_Proj.csproj", "{65D34322-9ED5-4B51-8E67-93479623F023}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6FC5BD55-7AB0-4B60-82C6-CC290E3E627A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FC5BD55-7AB0-4B60-82C6-CC290E3E627A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FC5BD55-7AB0-4B60-82C6-CC290E3E627A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FC5BD55-7AB0-4B60-82C6-CC290E3E627A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BC552D4-B91D-40BB-A571-55370DD881D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BC552D4-B91D-40BB-A571-55370DD881D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BC552D4-B91D-40BB-A571-55370DD881D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BC552D4-B91D-40BB-A571-55370DD881D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{647B6A69-1039-498C-98BA-C9E32C5C9AD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{647B6A69-1039-498C-98BA-C9E32C5C9AD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{647B6A69-1039-498C-98BA-C9E32C5C9AD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{647B6A69-1039-498C-98BA-C9E32C5C9AD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{111D1FDD-74CD-483E-931B-5CB2DD2C3ACB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{111D1FDD-74CD-483E-931B-5CB2DD2C3ACB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{111D1FDD-74CD-483E-931B-5CB2DD2C3ACB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{111D1FDD-74CD-483E-931B-5CB2DD2C3ACB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65D34322-9ED5-4B51-8E67-93479623F023}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65D34322-9ED5-4B51-8E67-93479623F023}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65D34322-9ED5-4B51-8E67-93479623F023}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65D34322-9ED5-4B51-8E67-93479623F023}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EFF6DE49-82FD-4EB0-8743-8214572AFC9C}
+	EndGlobalSection
+EndGlobal
